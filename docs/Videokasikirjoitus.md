@@ -5,37 +5,26 @@
 
 ---
 
-## 📜 Käsikirjoitus & Kohtausluettelo
+## 📜 Käsikirjoitus
+
+### [0:00-0:23]
+**JAMK -logo** Koko videon ajan oikeassa yläkulmassa.
 
 ---
 
-### [0:00–0:04]  
-**KUVA:** Ovikello soi. Henkilö A (nuori aikuinen) kävelee sisään ovesta, ravistelee hartioitaan siten, että katsoja huomaa, että ulkona on kylmä tai muutoin huono sää.  
-**ÄÄNET:** Oven avaus, tuulen humina ulkoa. (joku tuuli-ääniefekti)  
-**TEKSTITYS:**  
-*"Ulkona on ihan jäätävän kylmä taas..."*
+### [0:00–0:11]  
+**KUVA:** Video alkaa. Henkilö kävelee kameran eteen ja esittelee sovelluksen lyhyesti **"Simppeli, tyylikäs ja laadukas**" ja osoittaa sormellaan yläpuolelle ilmestyvää linkkiä('weathercloudcast.netlify.app') ja qr-koodia. Vasemmalle puolelle ilmestyy myös puhelimen ruutu, jossa esitellään sovelluksen toiminnallisuutta tarkemmin.
+**ÄÄNET:** Henkilön puhe.
+**TEKSTI:** **"Video on toteuteutettu osana tietojenkäsittelyn tutkinto-ohjelman ensimmäisen vuoden ohjelmistoprojektia."**
 
 ---
 
-### [0:04–0:09]  
-**KUVA:** Henkilö B (ystävällinen, rennon oloinen tyyppi) katsoo häntä ja hymyilee. Kävelee hänen luokseen, ottaa puhelimensa esiin ja osoittaa puhelimestaan CloudCast -verkkosivun.  
-**ÄÄNET:** Kevyt musiikki alkaa taustalla.  
-**TEKSTITYS:**  
-*"Kannattaa ensi kerralla checkata CloudCast"*
+### [0:11–0:18]  
+**KUVA:** Henkilö katsoo puhelintaan, jossa on suhteellisen lämmin sää ja sanoo **"Jaa, eihän tuolla mitään takkia tarvitakkaan"**. Sen jälkeen hän kävelee pois ja heittää takkinsa roskikseen.
+**ÄÄNET:** Henkilön puhe ja taustaäänet, kuten oven avaus. 
 
 ---
 
-### [0:09–0:14]  
-**KUVA:** Lähikuva puhelimesta. Näytöllä auki CloudCast-sovellus, jossa näkyy tämänhetkinen sää.  
-**GRAAFINEN EFEKTI:** Näytön päälle ilmestyy selkeä infografiikka tai screenshot sovelluksestamme: lämpötila, tuulen nopeus, säätila (esim. “5°, vesisadetta”).  
-**TEKSTITYS:**  
-*"Selkeä sääennuste – missä ja milloin vaan (tai jotain vastaavaa)."*
-
----
-
-### [0:14–0:20]  
-**KUVA:** transitio verkkosivumme etusivuun  
-**URL:** `weathercloudcast.netlify.app`  
-**ÄÄNET:** Musiikki päättyy pehmeästi.  
-**TEKSTITYS:**  
-*"CloudCast – sää, kuten sen pitäisi olla. (tai muu vastaava slogan)"*
+### [0:18-0:23]
+**KUVA:** Henkilö kävelee ulos ovesta ja video päättyy, kun ovi sulkeutuu.
+**ÄÄNET:** Oven sulkeutuminen
