@@ -17,6 +17,7 @@ class WeatherGlobal {
 	private _selectedWeather: Weather = $derived(this.setSelectedWeather()); // Muuttuja joka sisältää valitun sään
 	private _currentWeatherEffect: WeatherEffect = $derived(this.setCurrentWeatherEffect()); // Muuttuja joka pitää sisällään tämän hetkisen sääefektin
 	private _isNight: boolean = $derived(this.setNight());
+	private _timeDivider: number = $state(3); // Kuinka monen tunnin välein sää näytetään sovelluksessa. Oletus on 3
 
 	private setNight() {
 		if (Number(this.selectedWeather.SmartSymbol) >= 100) {
@@ -185,6 +186,9 @@ class WeatherGlobal {
 		return [];
 	}
 
+	get timeDivider() {
+		return this._timeDivider;
+	}
 	get selectedWeather() {
 		return this._selectedWeather;
 	}

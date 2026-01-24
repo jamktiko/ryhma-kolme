@@ -5,11 +5,24 @@
 	import { weatherGlobal } from '$lib/weatherGlobal.svelte';
 
 	let weatherHours: Weather[] = $derived(weatherGlobal.saatietoTaulukko);
+	let timeDivider: number = $derived(weatherGlobal.timeDivider);
+	let weatherToday: Weather[] = $state([]);
+	// Tekee uuden taulukon, jossa vain valitun päivän säätiedot
+	$effect(() => {
+		const newHours = [];
+		for (let hour of weatherHours) {
+			if (hour.Date.getDate() === weatherGlobal.selectedDay) {
+				newHours.push(hour);
+			}
+		}
+		weatherToday = newHours;
+	});
 </script>
 
 <div class="weather-hours">
-	{#each weatherHours as weatherHour, index}
-		{#if weatherHour.Date.getUTCDate() === weatherGlobal.selectedDay}
+	{#each weatherToday as weatherHour, index}
+		<!-- Näyttää sään tunnittain, jos on 12 tai alle tuntia jäljellä-->
+		{#if weatherHour.Date.getHours() % timeDivider === 0 || weatherToday.length <= 12}
 			<WeatherHour {weatherHour} />
 		{/if}
 	{/each}
